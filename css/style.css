@@ -1,0 +1,27 @@
+body{
+background-image: url('../images/background_image.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+/* background-color: bisque; */
+
+}
+h1{ 
+    font-family: nt_wagner; 
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    /* text-shadow: 2px 2px black; */
+    }
+
+h1{
+    text-shadow: 3px 3px 0px rgba(0,0,0, 0.075)
+}
+
+
+h2{ 
+    font-family: Lato-light; 
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 0px rgba(0,0,0, 0.075)
+}
