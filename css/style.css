@@ -5,23 +5,59 @@ background-size: cover;
 /* background-color: bisque; */
 
 }
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.top {
+    height: 100vh;
+    width: 100vw;
+    background: url('../images/background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle {
+    height: 100vh;
+    width: 100vw;
+    background: url('../images/background_image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom {
+    height: 100vh;
+    width: 100vw;
+    background: url('../images/background_image3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{ 
     font-family: nt_wagner; 
     color: white;
     text-align: center;
+  vertical-align: middle;
     font-size: 100px;
     /* text-shadow: 2px 2px black; */
     }
 
 h1{
-    text-shadow: 3px 3px 0px rgba(0,0,0, 0.075)
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.143);
+    text-align: center;
+    vertical-align: middle;
 }
 
 
 h2{ 
+    
     font-family: Lato-light; 
     color: white;
     text-align: center;
+  vertical-align: middle;
     font-size: 50px;
-    text-shadow: 3px 3px 0px rgba(0,0,0, 0.075)
+    text-shadow: 3px 3px 0px rgba(0,0,0, 0.143)
 }
+img {
+    height: 30vh;
+    width: 30vw;
+  }
+ 
