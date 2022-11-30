@@ -55,7 +55,7 @@ body{
       margin: auto;
     vertical-align: middle;
     padding-top: 30vh;
-      font-size: 100px;
+      font-size: 100px !important;
       /* text-shadow: 2px 2px black; */
       }
   
